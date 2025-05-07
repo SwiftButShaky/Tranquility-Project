@@ -1,1 +1,21 @@
+body {
+    background-color: #7a80fa; /* Soft blue */
+    color: #2a4d2a; /* Dark grey */
+    font-family: 'Nunito', sans-serif;
+}
+h1, h2 {
+    color: #333333; /* Gentle lavender accent */
+}
 
+button {
+    background-color: #ffffff; /* Soft lavender for buttons */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a084ff; /* Slightly darker on hover */
+}
