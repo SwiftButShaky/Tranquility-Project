@@ -5,20 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tranquility</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+<header>
 <body>
-    <header>
-        <h1>Tranquility</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="statistics.html">Statistics</a>
-            <a href="resources.html">Resources</a>
-        </nav>
-    </header>
-    <main>
-        <h2>Tranquility</h2>
-        <p>Your source for mental health information and support</p>
-    </main>
-    <script src="script.js"></script>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="/" id="navbar__logo">Tranquility</a>
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="index.html" class="navbar__links">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a href="statistics.html" class="navbar__links">Statistics</a>
+            </li>
+            <li class="navbar__item">
+                <a href="resources.html" class="navbar__links">Resources</a>
+            </li>
+            <li class="navbar_btn"><a href="/" class="button">Sign Up</a></li>
+        </ul>
+</nav>
+
+    <div class="main">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>YOUR FREE MENTAL HEALTH HUB</h1>
+                <p>Rest your Mind</p>
+                <div class="main__btn">
+                    <a href="/">Visit BREATHE</a>
+                </div>
+            </div>
+            <div class="main__img--container">
+                <img src="images/undraw_meditating_1fki-2.svg" alt="Meditation" id="main__img" />
+            </div>
+        </div>
+    </div>
+</body>
+</header>
+   
+    <script src="main.js"></script>
 </body>
 </html>
