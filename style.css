@@ -206,15 +206,15 @@
 .main__container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    /* align-items: center; */
     justify-self: center;
     margin: 0 auto;
-    height: 90vh;
+    height: 1500px;
     background: linear-gradient(to top, rgb(38, 38, 121) 0%, rgb(42, 10, 89) 100%);
     z-index: 1;
     width: 100%;
     max-width: 1300px;
-    padding: 0 50px;
+    padding: 50px;
 }
 
 .main__content h1{
